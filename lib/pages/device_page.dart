@@ -75,7 +75,7 @@ class _DevicePageState extends State<DevicePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Fabricante: "),
+                      Text("Fabricante Marca: "),
                       Text(
                         widget.equipoSeleccionado.fabricante,
                         textAlign: TextAlign.right,
